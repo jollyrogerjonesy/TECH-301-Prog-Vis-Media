@@ -3074,7 +3074,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciese5d5ade9d7a9b941^db6eaee9d7a9b941^---0#1#1#--18"Check dependencies36"F0C8F978-8774-4DD1-A2E1-EF3884CF71B2-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies0e103444adaab941^ac543444adaab941^---0#1#1#--18"Check dependencies36"9EDE75F0-7EEE-4140-B39D-A906AA6CE450-
 
 CCompileC /Users/emerymar/Desktop/of_v0.8.3_osx_release/libs/openFrameworksCompiled/lib/osx/build/debug/openFrameworks.build/Objects-normal/i386/of3dGraphics.o /Users/emerymar/Desktop/of_v0.8.3_osx_release/libs/openFrameworks/graphics/of3dGraphics.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
 s430365702.500666

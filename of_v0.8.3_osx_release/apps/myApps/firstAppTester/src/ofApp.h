@@ -25,4 +25,5 @@ class ofApp : public ofBaseApp{     //Class extends the ofBaseApp. All oF apps a
         int y;  //y pos
         int r;  //radius
         float rate;   //movement rate
+        int mInc;   //increment for mouse based radius
 };

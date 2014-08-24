@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3411A548-6578-4FBF-A94A-56CE7B7F7EDD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>firstAppTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DC3ADE0F-0337-434E-AB44-375314CDA13C</key>
+		<string>https://github.com/jollyrogerjonesy/TECH-301-Prog-Vis-Media.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>of_v0.8.3_osx_release/apps/myApps/firstAppTester/firstAppTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DC3ADE0F-0337-434E-AB44-375314CDA13C</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jollyrogerjonesy/TECH-301-Prog-Vis-Media.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DC3ADE0F-0337-434E-AB44-375314CDA13C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DC3ADE0F-0337-434E-AB44-375314CDA13C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TECH-301-Prog-Vis-Media</string>
+		</dict>
+	</array>
+</dict>
+</plist>
