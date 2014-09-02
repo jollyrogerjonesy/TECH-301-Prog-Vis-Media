@@ -16,16 +16,16 @@ class LineSpriteRect{
     
 public:     //public functions and vars
     LineSpriteRect();       //default constructor that is required
+    LineSpriteRect(float, float , float , float, float, int);   //overloaded constructor for args with data types
+    
     
     float x, y, w, h, randRange;    //vars for x/y pos, width and height, how much randomness
     int strokeCount;    //how many stroke lines to draw
     
-    LineSpriteRect(float, float , float , float, float, int);   //overloaded constructor for args
     
-    //Functions that will use the public vars
+    //Methods that will use the public vars
     void update();      //update method for object
-    void draw();       //draw method for object
-    //void SetLineSpriteRect(float, float, float, float, float, int);       //MAY NOT NEED
+    void draw(bool);       //draw method for object
     
 };
 

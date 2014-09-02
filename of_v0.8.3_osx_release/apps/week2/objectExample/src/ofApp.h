@@ -22,5 +22,6 @@ class ofApp : public ofBaseApp{
     
         //create LineSpriteObject
     LineSpriteRect sprite;
+    bool spriteMode;
 		
 };

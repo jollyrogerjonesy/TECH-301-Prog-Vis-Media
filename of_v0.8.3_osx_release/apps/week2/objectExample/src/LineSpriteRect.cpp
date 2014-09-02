@@ -31,26 +31,54 @@ void LineSpriteRect::update(){
 }
 
 
-void LineSpriteRect::draw(){
-
-    ofPushMatrix();
+void LineSpriteRect::draw(bool mode){
     
-    ofTranslate(ofGetWidth()/2,ofGetHeight()/2);
+    if(mode){
+        
+        ofPushMatrix();     //Push the current coordinate system to save for later pop
+        
+        int xC = ofRandom(0,ofGetWidth());
+        int yC = ofRandom(0,ofGetHeight());
+        
+        ofTranslate(xC,yC);       //translate the coordinate space to center
+        
+        //Draw rects from individual lines with built in random variations
+        for(int i=0; i < strokeCount; i++){
+            
+            ofLine(ofRandom(x-w/2, (x-w/2)+randRange), ofRandom(x-h/2, (x-h/2)+randRange), ofRandom(x+w/2, (x+w/2)+randRange), ofRandom(x-h/2, (x-h/2)+randRange));    //top
+            
+            ofLine(ofRandom(x-w/2, (x-w/2)+randRange), ofRandom(y+h/2, (y+h/2)+randRange), ofRandom(x+w/2, (x+w/2)+randRange), ofRandom(y+h/2, (y+h/2)+randRange));    //bottom
+            
+            ofLine(ofRandom(x-w/2, (x-w/2)+randRange), ofRandom(x-h/2, (x-h/2)+randRange), ofRandom(x-w/2, (x-w/2)+randRange), ofRandom(y+h/2, (y+h/2)+randRange));    //left
+            
+            ofLine(ofRandom(x+w/2, (x+w/2)+randRange), ofRandom(x-h/2, (x-h/2)+randRange), ofRandom(x+w/2, (x+w/2)+randRange), ofRandom(y+h/2, (y+h/2)+randRange));    //right
+            
+        }
+        
+        ofPopMatrix();      //Pop coordinate system back
+        
+    }else{
     
-    
-    
-    for(int i=0; i < strokeCount; i++){
+        ofPushMatrix();     //Push the current coordinate system to save for later pop
         
-        ofLine(ofRandom(x-w/2, (x-w/2)+randRange), ofRandom(x-h/2, (x-h/2)+randRange), ofRandom(x+w/2, (x+w/2)+randRange), ofRandom(x-h/2, (x-h/2)+randRange));    //top
+        ofTranslate(ofGetWidth()/2,ofGetHeight()/2);       //translate the coordinate space to center
         
-        ofLine(ofRandom(x-w/2, (x-w/2)+randRange), ofRandom(y+h/2, (y+h/2)+randRange), ofRandom(x+w/2, (x+w/2)+randRange), ofRandom(y+h/2, (y+h/2)+randRange));    //bottom
         
-        ofLine(ofRandom(x-w/2, (x-w/2)+randRange), ofRandom(x-h/2, (x-h/2)+randRange), ofRandom(x-w/2, (x-w/2)+randRange), ofRandom(y+h/2, (y+h/2)+randRange));    //left
+        //Draw rects from individual lines with built in random variations
+        for(int i=0; i < strokeCount; i++){
+            
+            ofLine(ofRandom(x-w/2, (x-w/2)+randRange), ofRandom(x-h/2, (x-h/2)+randRange), ofRandom(x+w/2, (x+w/2)+randRange), ofRandom(x-h/2, (x-h/2)+randRange));    //top
+            
+            ofLine(ofRandom(x-w/2, (x-w/2)+randRange), ofRandom(y+h/2, (y+h/2)+randRange), ofRandom(x+w/2, (x+w/2)+randRange), ofRandom(y+h/2, (y+h/2)+randRange));    //bottom
+            
+            ofLine(ofRandom(x-w/2, (x-w/2)+randRange), ofRandom(x-h/2, (x-h/2)+randRange), ofRandom(x-w/2, (x-w/2)+randRange), ofRandom(y+h/2, (y+h/2)+randRange));    //left
+            
+            ofLine(ofRandom(x+w/2, (x+w/2)+randRange), ofRandom(x-h/2, (x-h/2)+randRange), ofRandom(x+w/2, (x+w/2)+randRange), ofRandom(y+h/2, (y+h/2)+randRange));    //right
+            
+        }
         
-        ofLine(ofRandom(x+w/2, (x+w/2)+randRange), ofRandom(x-h/2, (x-h/2)+randRange), ofRandom(x+w/2, (x+w/2)+randRange), ofRandom(y+h/2, (y+h/2)+randRange));    //right
+        ofPopMatrix();      //Pop coordinate system back
         
     }
-    
-    ofPopMatrix();
 }
 

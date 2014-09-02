@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>922B72CF-B105-44D4-8075-CDC58C4401B4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>drawingWithPoints</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C381C6C5-6A10-4ADD-B155-6A8EC2E4773E</key>
+		<string>https://github.com/jollyrogerjonesy/TECH-301-Prog-Vis-Media.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>of_v0.8.3_osx_release/apps/week2/drawingWithPoints/drawingWithPoints.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C381C6C5-6A10-4ADD-B155-6A8EC2E4773E</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jollyrogerjonesy/TECH-301-Prog-Vis-Media.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C381C6C5-6A10-4ADD-B155-6A8EC2E4773E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C381C6C5-6A10-4ADD-B155-6A8EC2E4773E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TECH-301-Prog-Vis-Media</string>
+		</dict>
+	</array>
+</dict>
+</plist>
